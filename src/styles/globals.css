@@ -3,25 +3,50 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ 
+}
+body{
+  background-color: blueviolet;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.menu-header{
+  height: 50px;
+  background-color: rgba(137, 43, 226, 0.788);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.tabela{
+  background-color: #6d4a8e93;
+  text-align: center;
+  margin:50px 20px;
+
+}
+
+.tabela-titulo{
+  background-color:  #45634F;
+  border: 1px solid black;
+}
+.linha-titulo{
+  width: 22.5%;
+}
+.coluna-id{
+  width: 10%;
+}
+.borda-tabela{
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.linha-cont{
+  width: 22.5%;
+  height: 40px;
+}
+.linha-id{ 
+  background-color: #45634F;
+  border-left: 1px solid black;
+}
+.teste{
+  background-color: rgba(255, 255, 255, 0.103);
 }
